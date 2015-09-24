@@ -41,8 +41,9 @@ void FBResetPrefsTint(UIViewController *prefs)
 void FBKillProcess(NSString *signal, NSString *processName)
 {
 	pid_t pid;
-	signal = signal ? signal : @"-9";
-
+	signal = signal ? signal : @"9";
+	signal = [NSString stringWithFormat:@"-%@", signal];
+	
 	const char *args[] = {"killall", signal.UTF8String, processName.UTF8String, NULL};
 	posix_spawn(&pid, "/usr/bin/killall", NULL, NULL, (char *const *)args, NULL);
 }
