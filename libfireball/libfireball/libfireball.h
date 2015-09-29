@@ -1,10 +1,11 @@
 #import <UIKit/UIKit.h>
-#import <substrate.h>
-#import <spawn.h>
-#import <Social/Social.h>
-#import <objc/runtime.h>
 
 @class PSSpecifier;
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+    
 
 // Call after [super viewWillAppear:animated]
 void FBSetPrefsTint(UIViewController *prefs, UIColor *tintColor);
@@ -18,7 +19,14 @@ void FBKillProcess(NSString *signal, NSString *processName);
 
 // Call this in -loadView to add a share button.
 void FBAddTwitterShareButton(UIViewController *prefs, UIImage *twitterIcon, NSString *shareText);
+    
+void FBShowTwitterFollowAlert(NSString *title, NSString *welcomeMessage, NSString *twitterUsername);
 
 void FBOpenTwitterUsername(NSString *username);
 
 void FBOpenMailAddress(NSString *email);
+
+    
+#ifdef __cplusplus
+}
+#endif

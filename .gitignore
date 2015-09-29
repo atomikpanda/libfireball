@@ -1,1 +1,4 @@
 theos
+*.xcworkspacedata
+*.xcuserstate
+*.xcbkptlist

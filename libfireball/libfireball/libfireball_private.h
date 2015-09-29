@@ -1,4 +1,9 @@
 #import "libfireball.h"
+#import <substrate.h>
+#import <spawn.h>
+#import <Social/Social.h>
+#import <Accounts/Accounts.h>
+#import <objc/runtime.h>
 
 static NSString *FBDynamicYear(NSString *yearMade);
 
