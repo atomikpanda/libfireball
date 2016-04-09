@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAC9CCB71BB72AD90061E10C /* libfireball.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAC9CCB61BB72AD90061E10C /* libfireball.h */; };
-		CAC9CCC11BB72B6C0061E10C /* libfireball.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC9CCC01BB72B6C0061E10C /* libfireball.m */; settings = {ASSET_TAGS = (); }; };
+		CA9DDD001CB8A88700A9DBE8 /* libfireball.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9DDCFF1CB8A88700A9DBE8 /* libfireball.m */; };
+		CA9DDD011CB8A8A600A9DBE8 /* libfireball.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA9DDCFE1CB8A88700A9DBE8 /* libfireball.h */; };
 		CAC9CCC31BB72B900061E10C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC9CCC21BB72B900061E10C /* Social.framework */; };
 		CAC9CCC51BB72B950061E10C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC9CCC41BB72B950061E10C /* UIKit.framework */; };
 		CAC9CCC71BBB06B80061E10C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC9CCC61BBB06B80061E10C /* Accounts.framework */; };
@@ -18,20 +18,21 @@
 		CAC9CCB11BB72AD90061E10C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				CAC9CCB71BB72AD90061E10C /* libfireball.h in CopyFiles */,
+				CA9DDD011CB8A8A600A9DBE8 /* libfireball.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA9DDCFD1CB8A88700A9DBE8 /* libfireball_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libfireball_private.h; sourceTree = "<group>"; };
+		CA9DDCFE1CB8A88700A9DBE8 /* libfireball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libfireball.h; sourceTree = "<group>"; };
+		CA9DDCFF1CB8A88700A9DBE8 /* libfireball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = libfireball.m; sourceTree = "<group>"; };
+		CA9DDD071CB8AD3B00A9DBE8 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		CAC9CCB31BB72AD90061E10C /* libfireball.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfireball.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAC9CCB61BB72AD90061E10C /* libfireball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libfireball.h; sourceTree = "<group>"; };
-		CAC9CCBF1BB72B610061E10C /* libfireball_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libfireball_private.h; sourceTree = "<group>"; };
-		CAC9CCC01BB72B6C0061E10C /* libfireball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = libfireball.m; sourceTree = "<group>"; };
 		CAC9CCC21BB72B900061E10C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		CAC9CCC41BB72B950061E10C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAC9CCC61BBB06B80061E10C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -54,10 +55,13 @@
 		CAC9CCAA1BB72AD90061E10C = {
 			isa = PBXGroup;
 			children = (
+				CA9DDD071CB8AD3B00A9DBE8 /* build.sh */,
+				CA9DDCFD1CB8A88700A9DBE8 /* libfireball_private.h */,
+				CA9DDCFE1CB8A88700A9DBE8 /* libfireball.h */,
+				CA9DDCFF1CB8A88700A9DBE8 /* libfireball.m */,
 				CAC9CCC61BBB06B80061E10C /* Accounts.framework */,
 				CAC9CCC41BB72B950061E10C /* UIKit.framework */,
 				CAC9CCC21BB72B900061E10C /* Social.framework */,
-				CAC9CCB51BB72AD90061E10C /* libfireball */,
 				CAC9CCB41BB72AD90061E10C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,16 +72,6 @@
 				CAC9CCB31BB72AD90061E10C /* libfireball.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CAC9CCB51BB72AD90061E10C /* libfireball */ = {
-			isa = PBXGroup;
-			children = (
-				CAC9CCB61BB72AD90061E10C /* libfireball.h */,
-				CAC9CCC01BB72B6C0061E10C /* libfireball.m */,
-				CAC9CCBF1BB72B610061E10C /* libfireball_private.h */,
-			);
-			path = libfireball;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC9CCC11BB72B6C0061E10C /* libfireball.m in Sources */,
+				CA9DDD001CB8A88700A9DBE8 /* libfireball.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +267,7 @@
 				CAC9CCBE1BB72AD90061E10C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
