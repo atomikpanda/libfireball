@@ -1,30 +1,37 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0F1461C2D27D6CA284A61B228B5D2B8E56C135B1",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE679E5B7A80744413F5977552C794717185197E+++8E79EF7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "CE679E5B7A80744413F5977552C794717185197E" : 0,
-    "0F1461C2D27D6CA284A61B228B5D2B8E56C135B1" : 0
+    "CE679E5B7A80744413F5977552C794717185197E+++8E79EF7" : 0,
+    "CE679E5B7A80744413F5977552C794717185197E+++3922FFF" : 0,
+    "CE679E5B7A80744413F5977552C794717185197E+++5BDC51B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE344B2C-B3D7-45F5-9DB5-6E3EFA14B088",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "CE679E5B7A80744413F5977552C794717185197E" : "",
-    "0F1461C2D27D6CA284A61B228B5D2B8E56C135B1" : "libfireball\/"
+    "CE679E5B7A80744413F5977552C794717185197E+++8E79EF7" : "libfireball\/",
+    "CE679E5B7A80744413F5977552C794717185197E+++3922FFF" : "",
+    "CE679E5B7A80744413F5977552C794717185197E+++5BDC51B" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "libfireball",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "libfireball.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/s0ulp1xel\/libfireball.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F1461C2D27D6CA284A61B228B5D2B8E56C135B1"
-    },
-    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.pixelfiredev.com\/pixelfire\/libfireball.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE679E5B7A80744413F5977552C794717185197E"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE679E5B7A80744413F5977552C794717185197E+++3922FFF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/s0ulp1xel\/libfireball.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE679E5B7A80744413F5977552C794717185197E+++5BDC51B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/s0ulp1xel\/libfireball.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE679E5B7A80744413F5977552C794717185197E+++8E79EF7"
     }
   ]
 }
